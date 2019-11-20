@@ -1,14 +1,19 @@
 # settings 
 
 ## Core
+* Audio Beep
 * Exclude VCS Ignored Paths
   * uncheck; leaving checked excludes gitignore'd files from fuzzy finder
 
 ## <> Editor
 * Scroll Past End
 * Soft Wrap
+* Show Indent Guide
+* Show Invisibles
 
 # packages
+* autocomplete-plus (built in)
+  * Keymap For Confirming A Suggestion: tab always, enter when explicitly selected
 * custom-title
   * `<%= projectName %>: <%= fileName %><% if (filePath) { %> ~ ~ <%= relativeFilePath %><% } %> <% if (gitHead) { %> ~ ~ ~ Branch: <%= gitHead %><% } %>`
 * language-markdown
