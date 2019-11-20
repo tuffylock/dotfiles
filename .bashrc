@@ -2,6 +2,7 @@ export PATH=$PATH:/Users/fosborn/code/mobile-notary-infra/bin
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 
+# brew install git bash-completion
 . /usr/local/etc/bash_completion.d/git-prompt.sh
 . /usr/local/etc/bash_completion.d/git-completion.bash
 
