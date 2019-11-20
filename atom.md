@@ -6,7 +6,7 @@
 
 ## <> Editor
 * Scroll Past End
-*
+* Soft Wrap
 
 # packages
 * custom-title
