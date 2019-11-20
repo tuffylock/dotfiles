@@ -30,6 +30,13 @@ alias crtsha="openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha
 alias sslcheck="cd ~/code; openssl x509 -in certificate.crt -pubkey -noout -outform pem | sha256sum; openssl pkey -in privateKey.key -pubout -outform pem | sha256sum;"
 
 
+alias bx="bundle exec"
+
+# worth trying? https://jdanger.com/what-does-bundle-exec-do.html
+# for cmd in rspec ruby rubocop rails; do
+#   alias $cmd="bundle exec $cmd"
+# done
+
 alias serv="bin/rails s webrick"
 alias fore="foreman start -m all=1,web=0"
 
