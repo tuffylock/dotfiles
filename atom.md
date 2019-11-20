@@ -1,4 +1,10 @@
-# settings ("<> Editor")
+# settings 
+
+## Core
+* Exclude VCS Ignored Paths
+  * uncheck; leaving checked excludes gitignore'd files from fuzzy finder
+
+## <> Editor
 * Scroll Past End
 *
 
