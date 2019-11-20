@@ -17,6 +17,8 @@
 # install
 * iterm https://www.iterm2.com/downloads.html
   * terminal _doesn't show all search results highlighted_ (among other reasons)
+* muzzle https://muzzleapp.com/
+  * mutes notifications while screensharing
 
 # misc
 * sync shared calendars to ical: https://calendar.google.com/calendar/syncselect, https://www.howtogeek.com/409359/how-to-subscribe-to-calendars-on-mac/
