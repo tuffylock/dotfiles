@@ -20,7 +20,8 @@
   * auto-bulleting, etc
 * simple-copy-path
   * file path copying
-* tabs-closer
+* tabs-closer (behavior has p much been added natively   ?)
+* better-git-blame (auditing...otherwise, git-blame) (gutter blames w ctl-b)
 
 # themes
 
