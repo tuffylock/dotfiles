@@ -13,6 +13,10 @@
   * delete to start of line
 * ctl-k
   * delete to end of line
+* opt-b
+  * move back a word
+* opt-f
+  * move forward a word
 * ctl-w
   * delete previous word
 * ctl-l
