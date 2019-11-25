@@ -14,6 +14,9 @@ export PS1='\W$(__git_ps1 "\[\e[32m\][%s]\[\e[0m\]")$ '
 export EDITOR='atom'
 
 
+# don't use aliases for complex operations; use functions: https://stackoverflow.com/a/757149
+
+
 alias simpleserver="python -m SimpleHTTPServer 8000"
 
 alias ls="ls -a"
@@ -53,6 +56,21 @@ alias notes="cd ~/code/notes"
 
 alias opdot="atom ~/code/dotfiles"
 alias opnotes="atom ~/code/notes"
+
+
+
+# https://apple.stackexchange.com/a/360827
+newtabi() {
+  osascript \
+    -e 'tell application "iTerm2" to tell current window to set newWindow to (create tab with default profile)'\
+    -e "tell application \"iTerm2\" to tell current session of newWindow to write text \"${@}\""
+}
+
+appserv() {
+  newtabi 'bundle exec rails s'
+  newtabi 'bin/sidekiq'
+  newtabi 'cd frontend; yarn start'
+}
 
 
 
