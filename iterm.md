@@ -9,3 +9,4 @@ https://www.iterm2.com/downloads.html
 # shortcuts
 * cmd-click to open links
 * opt-click to place cursor
+* cmd-shift-i to send command to all open tabs
