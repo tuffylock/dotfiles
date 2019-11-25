@@ -1,6 +1,10 @@
 # commands
 * mkdir -p
   * creates nested folders (ie: existing-folder/new-folder/folder-baby)
+* ps aux | grep ruby
+  * list all running ruby processes
+* kill -9 PID 
+  * kill a process (PID: second column of ps aux results)
 
 # shortcuts
 * ctl-r
