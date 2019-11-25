@@ -3,6 +3,7 @@
   * creates nested folders (ie: existing-folder/new-folder/folder-baby)
 * ps aux | grep ruby
   * list all running ruby processes
+  * column names: https://superuser.com/questions/117913/ps-aux-output-meaning
 * kill -9 PID 
   * kill a process (PID: second column of ps aux results)
 
