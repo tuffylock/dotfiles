@@ -4,6 +4,8 @@
 * Audio Beep
 * Exclude VCS Ignored Paths
   * uncheck; leaving checked excludes gitignore'd files from fuzzy finder
+* Ignored Names
+  * `.git, .hg, .svn, .DS_Store, ._*, Thumbs.db, desktop.ini, publicassets, tmp, log, coverage, node_modules`
 
 ## <> Editor
 * Scroll Past End
