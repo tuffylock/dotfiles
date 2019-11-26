@@ -24,3 +24,18 @@
 * sync shared calendars to ical: https://calendar.google.com/calendar/syncselect, https://www.howtogeek.com/409359/how-to-subscribe-to-calendars-on-mac/
 * use tab to navigate spotlight results?
   * relies on karabiner: https://superuser.com/a/888609
+
+  
+# touchbar
+* syspref > keyboard > keyboard
+* Touch Bar shows: Expanded Control Strip
+* Customize Touch Bar...
+  * brightness
+  * brightness slider
+  * mission control
+  * desktop
+  * screenshot
+  * volume set
+  * volume slider
+  * media controls
+  * lock screen
