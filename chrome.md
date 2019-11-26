@@ -10,3 +10,10 @@ chrome://settings/searchEngines
 * google images
   * i
   * `http://images.google.com/images?hl=en&source=hp&q=%s&btnG=Search+Images&gbv=2`
+  
+  
+# vimium maps
+```
+map gp togglePinTab
+map l visitPreviousTab
+```
