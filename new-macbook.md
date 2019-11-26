@@ -22,3 +22,5 @@
 
 # misc
 * sync shared calendars to ical: https://calendar.google.com/calendar/syncselect, https://www.howtogeek.com/409359/how-to-subscribe-to-calendars-on-mac/
+* use tab to navigate spotlight results?
+  * relies on karabiner: https://superuser.com/a/888609
