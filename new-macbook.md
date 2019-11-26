@@ -27,6 +27,7 @@
   
 # shortcuts
 * opt-click to maximize window without fullscreen
+* cmd-click to rearrange menu bar icons
 
   
 # touchbar
