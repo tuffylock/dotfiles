@@ -42,3 +42,7 @@
 * some apps have toolbar customization; check View > Customize Touch Bar...
 * in depth customization via BetterTouchTool (now playing, finder search, notetaking) https://vas3k.com/blog/touchbar/
 * BetterTouchTool https://folivora.ai/
+
+
+# applescript ?
+* https://medium.com/@danielsneijers/automating-mundane-tasks-with-applescript-and-spotlight-abb892b2dc42
