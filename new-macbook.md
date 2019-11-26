@@ -39,3 +39,6 @@
   * volume slider
   * media controls
   * lock screen
+* some apps have toolbar customization; check View > Customize Touch Bar...
+* in depth customization via BetterTouchTool (now playing, finder search, notetaking) https://vas3k.com/blog/touchbar/
+* BetterTouchTool https://folivora.ai/
