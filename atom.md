@@ -44,3 +44,6 @@
     * a
   * new folder
     * A
+* reveal in tree view
+  * cmd-|
+    * (pipe),,, (shift-\)
