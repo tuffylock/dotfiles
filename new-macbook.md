@@ -3,6 +3,11 @@
 * double click drag: syspref > accessibility > mouse and trackpad > trackpad options
 * turn off system sounds: syspref > sounds > sound effects > "Play user interface sound effects"
 * swap screencap save/clipboard commands: syspref > shortcuts > screenshots
+* set screenshot folder
+  * create folder
+  * terminal:
+  * defaults write com.apple.screencapture location /Users/featherosborn/Documents/Screenshots
+    * (drag and drop folder to autofill location!)
 * dock to left, autohide
 * key accents off (hold down to repeat!!!): terminal: `defaults write -g ApplePressAndHoldEnabled -bool false`
 * faster key repeat (not working???): https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x
