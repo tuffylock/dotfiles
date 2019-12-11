@@ -1,6 +1,10 @@
 # settings
 * reopen session after quitting: Settings > "On Startup" > "Continue where you left off" 
   * chrome://settings/onStartup
+* turn off search terms in omnibar showing before sites visited: 
+  * Load chrome://flags/#omnibox-drive-suggestions in the Chrome address bar.
+  * Change the experimental flag to disabled by activating the menu next to the preference and selecting "Disabled" from the options.
+  * Restart the Chrome browser.
 
 # extensions
 * clear downloads bar (always search for newest/most popular. often breaks/etc)
