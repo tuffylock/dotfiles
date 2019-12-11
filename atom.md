@@ -14,6 +14,8 @@
 * Show Invisibles
 
 # packages
+* atom-ide-ui (built in)
+  * switch "Trigger keys for macOS" to fix cmd-click for multiple cursors (under "Hyperclick")
 * autocomplete-plus (built in)
   * Keymap For Confirming A Suggestion: tab always, enter when explicitly selected
 * custom-title
