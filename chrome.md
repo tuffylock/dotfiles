@@ -1,3 +1,7 @@
+# settings
+* reopen session after quitting: Settings > "On Startup" > "Continue where you left off" 
+  * chrome://settings/onStartup
+
 # extensions
 * clear downloads bar (always search for newest/most popular. often breaks/etc)
 * open link in new tab: https://chrome.google.com/webstore/detail/open-link-in-same-tab/kgpefningcojblgciiljmabggbbjiojb?hl=en
