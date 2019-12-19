@@ -34,6 +34,7 @@
 # shortcuts
 * opt-click to maximize window without fullscreen
 * cmd-click to rearrange menu bar icons
+* hold opt when letting go of cmd after cmd-tab to de-minimize all windows for that app
 
   
 # touchbar
