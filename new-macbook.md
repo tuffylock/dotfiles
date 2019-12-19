@@ -35,6 +35,7 @@
 * opt-click to maximize window without fullscreen
 * cmd-click to rearrange menu bar icons
 * hold opt when letting go of cmd after cmd-tab to de-minimize all windows for that app
+  * "After playing, here are some notes. Contrary to what one could think, the Option trick does not show all windows in the target application. As long as the target app has at least one non-hidden window, the Option trick does nothing. Otherwise, when the target app has one or more hidden window(s), the Option trick shows one, and only one, of these windows. More interesting yet : with apps like the Terminal, or the Activity Monitor, the Option trick will create a new window. In fact, Apple Tab with the Option trick is the equivalent of clicking the target app in the Dock."
 
   
 # touchbar
