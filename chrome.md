@@ -22,6 +22,7 @@
     keybinding: "Ctrl+Tab"
   });
   ```
+* format json: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
   
 
 # search engines
