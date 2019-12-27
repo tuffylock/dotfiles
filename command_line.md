@@ -6,6 +6,8 @@
   * column names: https://superuser.com/questions/117913/ps-aux-output-meaning
 * kill -9 PID 
   * kill a process (PID: second column of ps aux results)
+* sudo kill -9 $(lsof -i :3000 -t)
+  * fallback server killer
 * env | grep -i PATH
 
 # shortcuts
