@@ -1,3 +1,9 @@
+* merging master
+  * switch to master, pull, swtich back, rebase
+  * git rebase master
+  * 
+  * for conflicts, when branching off a branch: g rebase --skip
+
 closing issue keywords https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords
 
 
