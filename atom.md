@@ -26,6 +26,7 @@
   * file path copying
 * tabs-closer (behavior has p much been added natively   ?)
 * better-git-blame (auditing...otherwise, git-blame) (gutter blames w ctl-b)
+* gemsource (unpack ruby gems) https://atom.io/packages/gemsource
 
 # themes
 
