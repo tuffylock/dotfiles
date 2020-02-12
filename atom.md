@@ -51,3 +51,6 @@
 * reveal in tree view
   * cmd-|
     * (pipe),,, (shift-\)
+* search symbols/definitions
+  * cmd-r
+    * search symbols in file
