@@ -5,6 +5,7 @@ https://www.iterm2.com/downloads.html
 * open new tabs in same directory: pref > profiles > general > working directory > Reuse previous session's directory
 * opt/cmd word navigation and deletion: pref > profiles > keys > presets > Natural Text Editing
   * alt: https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
+* dont expand window size when zooming text size: pref > general > window > uncheck Adjust window when changing font size
 
 # shortcuts
 * cmd-click to open links
