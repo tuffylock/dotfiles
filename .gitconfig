@@ -30,11 +30,12 @@
     undo = reset --soft HEAD~1
     wipeout = reset --hard HEAD~1
     mas = checkout master
-    dev = checkout develop
     co = checkout
     cob = checkout -b
     puush = push -u origin HEAD
     ew = checkout -- .
     rebuildkite = commit --allow-empty -m "Trigger buildkite"
+    # https://stackoverflow.com/a/1113140
+    deletedat = rev-list -n 1 HEAD --
 [core]
     editor = vim
