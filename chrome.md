@@ -33,6 +33,9 @@ chrome://settings/searchEngines
 * google images
   * i
   * `http://images.google.com/images?hl=en&source=hp&q=%s&btnG=Search+Images&gbv=2`
+* github commit for...
+  * com
+  * `https://github.com/ORG/REPO/commit/%s`
   
   
 # vimium maps
