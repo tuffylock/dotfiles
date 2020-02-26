@@ -19,23 +19,24 @@
 
 [alias]
     s = status
+    l = log --oneline -10
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
     a = add -p
     aa = add -A
     c = commit
-    l = log --oneline -10
     cm = commit -m
-    ig = update-index --assume-unchanged
-    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
     amen = commit --amend
-    undo = reset --soft HEAD~1
-    wipeout = reset --hard HEAD~1
-    mas = checkout master
     co = checkout
     cob = checkout -b
+    mas = checkout master
     puush = push -u origin HEAD
+    undo = reset --soft HEAD~1
     ew = checkout -- .
-    rebuildkite = commit --allow-empty -m "Trigger buildkite"
+    wipeout = reset --hard HEAD~1
+    ignore = update-index --assume-unchanged
+    unignore = update-index --no-assume-unchanged
     # https://stackoverflow.com/a/1113140
     deletedat = rev-list -n 1 HEAD --
+    empty = commit --allow-empty -m "empty commit"
 [core]
     editor = vim
