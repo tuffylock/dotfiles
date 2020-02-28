@@ -38,5 +38,6 @@
     # https://stackoverflow.com/a/1113140
     deletedat = rev-list -n 1 HEAD --
     empty = commit --allow-empty -m "empty commit"
+    alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 [core]
     editor = vim
