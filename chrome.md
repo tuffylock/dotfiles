@@ -44,6 +44,8 @@ map gp togglePinTab
 map l visitPreviousTab
 map < moveTabLeft
 map > moveTabRight
+map [ previousTab
+map ] nextTab
 ```
 
 
