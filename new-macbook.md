@@ -52,14 +52,14 @@
 * syspref > keyboard > keyboard
 * Touch Bar shows: Expanded Control Strip
 * Customize Touch Bar...
+  * volume slider
   * brightness
-  * brightness slider
   * mission control
   * desktop
   * screenshot
   * volume set
-  * volume slider
   * media controls
+  * brightness slider
   * lock screen
 * some apps have toolbar customization; check View > Customize Touch Bar...
 * in depth customization via BetterTouchTool (now playing, finder search, notetaking) https://vas3k.com/blog/touchbar/
