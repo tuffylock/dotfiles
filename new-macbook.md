@@ -2,6 +2,9 @@
 * caps to esc: syspref > keyboard > modifier keys
 * double click drag: syspref > accessibility > mouse and trackpad > trackpad options
 * turn off system sounds: syspref > sounds > sound effects > "Play user interface sound effects"
+  * turn off charger plugged in sound: in terminal (https://apple.stackexchange.com/questions/282752/turning-power-chime-off)
+    * defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
+    * killall PowerChime
 * dont close windows when quitting an app: syspref > general > uncheck "Close windows when quitting an app" (particularly impacts iterm)
 * swap screencap save/clipboard commands: syspref > shortcuts > screenshots
 * set screenshot folder
