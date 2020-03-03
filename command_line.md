@@ -27,6 +27,6 @@
   * move forward a word
 * ctl-w
   * delete previous word
-* ctl-l
+* ctl-l / cmd-k
   * clear screen
 
