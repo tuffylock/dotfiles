@@ -54,3 +54,8 @@
 * search symbols/definitions
   * cmd-r
     * search symbols in file
+* function folding https://flight-manual.atom.io/using-atom/sections/folding/#:~:text=
+  * cmd-shift-opt-[
+    * fold all
+  * cmd-shift-opt-]
+    * unfold all
