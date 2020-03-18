@@ -23,6 +23,8 @@
 * clock seconds/date: click clock > open date and time preferences
 * always show finder hidden files: terminal: `defaults write com.apple.finder AppleShowAllFiles YES`
   * Hold the ‘Option/alt’ key, then right click on the Finder icon in the dock and click Relaunch.
+* bypass open link in app via chrome confirmation dialog (zoom links)
+  * `defaults write http://com.google.Chrome ExternalProtocolDialogShowAlwaysOpenCheckbox -bool true`
 * paste without style by default: 
   * syspref > keyboard > shortcuts > app shortcuts > + > 
   * Set the application/s. From the Application drop-down menu, choose All Applications (or you can specify and individual application, like Mail, if you prefer).
