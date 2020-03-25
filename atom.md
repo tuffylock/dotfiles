@@ -59,3 +59,15 @@
     * fold all
   * cmd-shift-opt-]
     * unfold all
+    
+    
+# misc
+* save individual files without trailing newline
+ * select a placeholder language (one you dont use, easy to select, ie `C`)
+ * in its language package cson file (https://github.com/atom/language-c/blob/master/grammars/c.cson) locate its "scopeName". this will have a . prepended.
+ * in atom's `config.cson` file:
+```
+'.source.c':
+  whitespace:
+    ensureSingleTrailingNewline: false
+```
