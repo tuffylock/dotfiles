@@ -9,6 +9,8 @@
 * sudo kill -9 $(lsof -i :3000 -t)
   * fallback server killer
 * env | grep -i PATH
+* ls -A -S | du -d 1 | sort -n -r
+  * sort all folders (including hidden) by size (and display in bytes)
 
 # shortcuts
 * ctl-r
