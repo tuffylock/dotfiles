@@ -12,3 +12,7 @@ https://www.iterm2.com/downloads.html
 * opt-click to place cursor
 * cmd-shift-i to send command to all open tabs
   * MUST BE TOGGLED OFF AFTER USE
+
+# themes
+* AdventureTime
+  * https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/AdventureTime.itermcolors
