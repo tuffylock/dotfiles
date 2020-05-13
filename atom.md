@@ -30,6 +30,7 @@
 * goto-definition (cmd-opt-enter or right click to search def ___ ) https://atom.io/packages/goto-definition
 
 # themes
+* solarized dark
 
 # keymap overrides
 `/Users/fosborn/.atom/keymap.cson`
