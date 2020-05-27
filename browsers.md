@@ -1,4 +1,6 @@
-# settings
+# chrome/brave
+
+## settings
 * reopen session after quitting: Settings > "On Startup" > "Continue where you left off" 
   * chrome://settings/onStartup
 * turn off search terms in omnibar showing before sites visited: 
@@ -6,7 +8,7 @@
   * Change the experimental flag to disabled by activating the menu next to the preference and selecting "Disabled" from the options.
   * Restart the Chrome browser.
 
-# extensions
+## extensions
 * clear downloads bar (always search for newest/most popular. often breaks/etc)
 * open link in new tab: https://chrome.google.com/webstore/detail/open-link-in-same-tab/kgpefningcojblgciiljmabggbbjiojb?hl=en
 * vimium: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en
@@ -25,7 +27,7 @@
 * format json: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
   
 
-# search engines
+## search engines
 chrome://settings/searchEngines
 * unfocus omnibar
   * x
@@ -38,7 +40,7 @@ chrome://settings/searchEngines
   * `https://github.com/ORG/REPO/commit/%s`
   
   
-# vimium maps
+## vimium maps
 ```
 map gp togglePinTab
 map l visitPreviousTab
@@ -49,7 +51,12 @@ map ] nextTab
 ```
 
 
-# most recently used tab
+## most recently used tab
 * win only? https://fwextensions.github.io/QuicKey/ctrl-tab/ (js solution works on mac!)
 * might be magic? https://chrome.google.com/webstore/detail/recent-tabs/ocllfmhjhfmogablefmibmjcodggknml
   * "On Mac OS, the Recent Tabs extension is somehow able to reassign Ctrl+Tab to switch between two most recently used tabs out-of-the-box!" (downvoted)
+  
+  
+# firefox
+
+* separate sessions / "Multi-Account Containers" for development: https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
