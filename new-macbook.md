@@ -1,6 +1,7 @@
 # basic setup
-* caps to esc: syspref > keyboard > modifier keys
+* tap to click
 * double click drag: syspref > accessibility > mouse and trackpad > trackpad options
+* caps to esc: syspref > keyboard > modifier keys
 * turn off system sounds: syspref > sounds > sound effects > "Play user interface sound effects"
   * turn off charger plugged in sound: https://apple.stackexchange.com/questions/282752/turning-power-chime-off
     * terminal:
@@ -34,6 +35,8 @@
   * https://havecamerawilltravel.com/photographer/set-paste-match-style-default-mac-osx/
 
 # install
+* brave https://brave.com/
+  * set as default browser: syspref -> general -> Default web browser
 * iterm https://www.iterm2.com/downloads.html
   * terminal _doesn't show all search results highlighted_ (among other reasons)
 * muzzle https://muzzleapp.com/
