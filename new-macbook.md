@@ -22,7 +22,8 @@
   * `defaults write -g KeyRepeat -int 1`
     * normal minimum is 2 (30 ms)
 * clock seconds/date: click clock > open date and time preferences
-* always show finder hidden files: terminal: `defaults write com.apple.finder AppleShowAllFiles YES`
+* always show finder hidden files (cmd-shift-. in finder to toggle temporarily): 
+  * terminal: `defaults write com.apple.finder AppleShowAllFiles YES`
   * Hold the ‘Option/alt’ key, then right click on the Finder icon in the dock and click Relaunch.
 * bypass open link in app via chrome confirmation dialog (zoom links)
   * `defaults write http://com.google.Chrome ExternalProtocolDialogShowAlwaysOpenCheckbox -bool true`
