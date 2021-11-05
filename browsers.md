@@ -38,6 +38,11 @@ chrome://settings/searchEngines
 * github commit for...
   * com
   * `https://github.com/ORG/REPO/commit/%s`
+
+
+## shortcuts
+* cmd-shift-a
+  * search open tabs
   
   
 ## vimium maps
