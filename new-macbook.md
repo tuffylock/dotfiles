@@ -79,3 +79,9 @@
 
 # applescript ?
 * https://medium.com/@danielsneijers/automating-mundane-tasks-with-applescript-and-spotlight-abb892b2dc42
+
+
+# mac stuff to remember
+* cmd-' to open settings
+* spacebar to preview images in finder
+* cmd/opt arrow to navigate text by word or line
