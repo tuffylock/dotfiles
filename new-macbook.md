@@ -73,5 +73,9 @@
 * BetterTouchTool https://folivora.ai/
 
 
+# finder
+* Finder > Preferences > Advanced > Keep folders on top when sorting by name
+
+
 # applescript ?
 * https://medium.com/@danielsneijers/automating-mundane-tasks-with-applescript-and-spotlight-abb892b2dc42
