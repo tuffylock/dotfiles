@@ -43,6 +43,7 @@ chrome://settings/searchEngines
 ## shortcuts
 * cmd-shift-a
   * search open tabs
+* cmd (ctl) click to select multiple tabs (eg for moving to new window)
   
   
 ## vimium maps
