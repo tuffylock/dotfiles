@@ -13,3 +13,6 @@ then you can alias it to gpr or whatever to really save time :wink:"
 
 
 * automation (paid) https://www.ansible.com/products/automation-platform
+
+* using homebrew vs using regular installs
+ * mbe i'll just use regular installs for gui programs (casks)?
