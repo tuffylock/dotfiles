@@ -10,4 +10,4 @@
   * [setup](iterm.md)
 * install [atom](https://atom.io/)
   * from atom: Atom > Install Shell Commands
-* a wee test :)
+* a wee test :) :/
