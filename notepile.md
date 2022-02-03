@@ -3,7 +3,7 @@
 * adam: https://github.com/derwiki/dotfiles
 * dana: https://github.com/dmerrick/configs
 
-
+* seems like good rundown (many sysprefs match mine) https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-2021-a7a1f53f6462
 
 
 * myk git scripts: https://github.com/mbilokonsky/mit
