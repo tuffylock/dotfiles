@@ -1,3 +1,5 @@
+# touch ~/.gitconfig
+
 [filter "lfs"]
     smudge = git-lfs smudge %f
     required = true

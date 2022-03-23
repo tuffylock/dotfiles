@@ -1,3 +1,24 @@
+rails app setup:
+
+* manually install ruby using rbenv, as listed in .ruby-version and/or Gemfile
+  * `rbenv install 2.7.3`
+  * `rbenv which ruby` will also display an error listing it
+* `gem install bundler`
+* `gem install rails`
+  * `gem install rails --version 6.1.3` (check Gemfile/readme)
+  * (why does bundle install print rails installed but that doesn't work?)
+* `bundle install`
+
+
+
+* skip views etc when using rails generate controller
+  * `config.api_only = true` in application.rb
+* generate only views etc for pre-existing controllers
+  * `rails g controller Users index -s --skip-collision-check --skip-routes --no-helper --no-assets --no-request-specs --no-controller-specs --no-view-specs --no-routing-specs --no-helper-specs`
+  * with `-p` to confirm before actual run
+
+`bundle clean` to remove gems removed from gemfile
+
 `_`: placeholder for last return value
 
 

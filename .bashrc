@@ -9,6 +9,8 @@ export PATH=$PATH:/Users/fosborn/code/mobile-notary-infra/bin
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 
+# prompt: working directory (home as ~), colored git status branch
+# https://wiki.archlinux.org/title/Bash/Prompt_customization
 export PS1='\W$(__git_ps1 "\[\e[32m\][%s]\[\e[0m\]")$ '
 
 export EDITOR='atom'

@@ -10,3 +10,16 @@
   * [setup](iterm.md)
 * install [atom](https://atom.io/)
   * from atom: Atom > Install Shell Commands
+
+
+* install [homebrew](https://brew.sh/)
+  * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+  * (homebrew is already added to your $PATH on newer macs)
+* install [rbenv](https://github.com/rbenv/rbenv)
+  * `brew install rbenv` (ruby-build is installed automatically)
+  * `echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc` (looks like we no longer need to add the `bin` path line?)
+  * `rbenv install -l` (copy latest)
+  * `rbenv install 3.1.1`
+  * `rbenv global 3.1.1`
+  * `curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash` (test install)
+* 
