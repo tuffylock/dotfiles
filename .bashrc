@@ -11,6 +11,9 @@ export GIT_PS1_SHOWUNTRACKEDFILES=1
 
 # prompt: working directory (home as ~), colored git status branch
 # https://wiki.archlinux.org/title/Bash/Prompt_customization
+ # https://www.gnu.org/software/bash/manual/html_node/Controlling-the-Prompt.html
+# colors https://stackoverflow.com/a/689804/5598661
+#  \e[0;31m (turn on red foreground) and \e[0m (turn off character attributes)
 export PS1='\W$(__git_ps1 "\[\e[32m\][%s]\[\e[0m\]")$ '
 
 export EDITOR='atom'
