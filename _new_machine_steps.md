@@ -16,7 +16,7 @@
 * install [atom](https://atom.io/)
   * from atom: Atom > Install Shell Commands
 
-test
+(having just empty space here caused the whole file to display with double spacing between bullets on github so.......)
 
 * install [homebrew](https://brew.sh/)
   * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
