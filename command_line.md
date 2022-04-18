@@ -1,10 +1,13 @@
-# commands
+## commands
 * mkdir -p
   * creates nested folders (ie: existing-folder/new-folder/folder-baby)
+* list and kill processes
+  * ps
+  * kill INSERTPIDNUM
 * ps aux | grep ruby
   * list all running ruby processes
   * column names: https://superuser.com/questions/117913/ps-aux-output-meaning
-* kill -9 PID 
+* kill -9 PID
   * kill a process (PID: second column of ps aux results)
 * sudo kill -9 $(lsof -i :3000 -t)
   * fallback server killer
@@ -12,7 +15,7 @@
 * ls -A -S | du -d 1 | sort -n -r
   * sort all folders (including hidden) by size (and display in bytes)
 
-# shortcuts
+## shortcuts
 * ctl-r
   * search previous commands
 * ctl-a
@@ -30,5 +33,7 @@
 * ctl-w
   * delete previous word
 * ctl-l / cmd-k
-  * clear screen
+  * clear screen / clear screen and can't scroll back
 
+## TODO
+* tmux

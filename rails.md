@@ -8,6 +8,18 @@ rails app setup:
   * `gem install rails --version 6.1.3` (check Gemfile/readme)
   * (why does bundle install print rails installed but that doesn't work?)
 * `bundle install`
+* https://postgresapp.com/downloads.html
+  * set up paths (instructions on home page)
+  * `sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp`
+  * or `brew install postgresql`
+    * autostart https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/
+  * other pg.app path thing? https://fdp.io/blog/2013/05/23/setup-postgresql-for-rails-on-a-mac/
+  * env vars etc https://medium.com/geekculture/postgresql-rails-and-macos-16248ddcc8ba and https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos
+* rails new app_name -d=postgresql
+* bin/rake db:create
+  * bin/ faster than bundle exec? https://andre.arko.net/2021/02/22/never-bundle-exec-again/
+  * https://stackoverflow.com/questions/35634898/rake-dbcreate-vs-rake-dbcreateall
 
 
 
@@ -20,6 +32,12 @@ rails app setup:
 `bundle clean` to remove gems removed from gemfile
 
 `_`: placeholder for last return value
+
+
+generator overview https://www.bigbinary.com/learn-rubyonrails-book/rails-generator-and-bundle-commands
+
+
+nice extensive rails setup https://gorails.com/setup/osx/11-big-sur
 
 
 ---

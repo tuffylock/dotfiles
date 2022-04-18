@@ -1,8 +1,10 @@
+* open safari and...come here :p https://github.com/tuffylock/dotfiles
 * basic sys-pref [here](macbook.md)
   * TODO can files be pulled for this?
 * install [brave](https://brave.com/download/)
   * [extensions](browsers.md)
 * set up [github ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+  * ls -al ~/.ssh
   * ssh-keygen -t ed25519 -C "tuffylock@gmail.com"
   * pbcopy < ~/.ssh/id_ed25519.pub
   * [github keys](https://github.com/settings/keys)
@@ -22,4 +24,4 @@
   * `rbenv install 3.1.1`
   * `rbenv global 3.1.1`
   * `curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash` (test install)
-* 
+*

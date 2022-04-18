@@ -1,6 +1,12 @@
 https://www.iterm2.com/downloads.html
 
 # TODO: https://stackoverflow.com/questions/22943676/how-to-export-iterm2-profiles
+https://stackoverflow.com/questions/35211565/how-do-i-import-an-iterm2-profile
+https://codeolsen.com/productivity/tools/iterm-sync-dropbox/
+http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/
+https://shyr.io/blog/iterm2-beautiful-customizations
+* Just put a path in prefs>general>Load preferences from a custom folder or URL. You can press "Save settings to folder" to manually save it. When you quit, it will ask if you want to save and you can say "yes" and "always use this option." Am I missing anything?
+https://dev.to/bhagatparwinder/terminal-of-choice-iterm2-gc
 # TODO: sort out custom window/tab title
 
 # settings

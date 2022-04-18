@@ -1,3 +1,5 @@
+Atom>Install Shell Commands
+
 # settings
 _stored in `.atom/config.cson`, accessible via filebar>Atom>Config..._
 _[more info](https://flight-manual.atom.io/using-atom/sections/basic-customization/#:~:text=Global%20Configuration%20Settings&text=cson%20file%20in%20your%20~%2F,atom&text=directory.,-'*'%3A%20'core'&text=The%20configuration%20is%20grouped%20into,under%20scope%20named%20keys%20like%20.)_
@@ -51,6 +53,10 @@ _[more info](https://flight-manual.atom.io/using-atom/sections/basic-customizati
   * https://atom.io/packages/minimap
   * https://atom.io/packages/hyperclick
     * couldn't get opt-click to work (can just right click anyway)
+  * https://atom.io/packages/atom-live-server
+  * https://atom.io/packages/atom-live-server-plus
+  * https://atom.io/packages/open-in-browser
+  * https://atom.io/packages/autoclose-html
 
 # themes
 * solarized dark
@@ -67,6 +73,22 @@ _[more info](https://flight-manual.atom.io/using-atom/sections/basic-customizati
 'body':
   'ctrl-cmd-]': 'window:focus-pane-on-right'
   'ctrl-cmd-[': 'window:focus-pane-on-left'
+```
+* delete line to first character, from any location
+  * `init.coffee`
+```
+# via https://chromatichq.com/insights/practical-atom-hacks
+atom.commands.add 'atom-text-editor', 'custom:cut-to-beginning-of-first-character', ->
+  editor = this.getModel();
+  editor.moveToEndOfLine();
+  editor.selectToFirstCharacterOfLine();
+  editor.cutSelectedText();
+```
+  * `keymap.cson`
+```
+'atom-text-editor':
+  'ctrl-backspace': 'custom:cut-to-beginning-of-first-character'
+
 ```
 
 
@@ -107,3 +129,9 @@ _[more info](https://flight-manual.atom.io/using-atom/sections/basic-customizati
   whitespace:
     ensureSingleTrailingNewline: false
 ```
+* hack on init file?
+  * https://medium.com/hacking-atom/tweak-your-atom-s-init-script-without-reloading-atom-with-a-declarative-module-8b1c0f208663
+  * https://chromatichq.com/insights/practical-atom-hacks
+
+# syncing notes
+* manual package list generation etc https://chromatichq.com/insights/practical-atom-hacks

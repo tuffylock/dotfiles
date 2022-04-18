@@ -34,12 +34,17 @@
   * In the Keyboard Shortcut field, press Command + V (or whatever shortcut you want to use). That will capture the new shortcut. Command + V will override the regular paste command. You can also specify a different keyboard shortcut if you’d like to have the option of both.
   * Add
   * https://havecamerawilltravel.com/photographer/set-paste-match-style-default-mac-osx/
+* startup programs: syspref > Users & Groups > Login Items
 
 # install
 * brave https://brave.com/
   * set as default browser: syspref -> general -> Default web browser
 * iterm https://www.iterm2.com/downloads.html
   * terminal _doesn't show all search results highlighted_ (among other reasons)
+* postman https://www.postman.com/downloads/
+  * apple > about this mac > processor to check intel vs apple cpu
+  * google account
+  * set default language via settings>general>request>language detection
 * muzzle https://muzzleapp.com/
   * mutes notifications while screensharing
 
