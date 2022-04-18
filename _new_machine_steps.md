@@ -1,4 +1,3 @@
-## Step by step...
 * open safari and...come here :p
   * https://github.com/tuffylock/dotfiles
 * in **Terminal**
@@ -17,6 +16,7 @@
 * install [atom](https://atom.io/)
   * from atom: Atom > Install Shell Commands
 
+test
 
 * install [homebrew](https://brew.sh/)
   * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -28,4 +28,3 @@
   * `rbenv install 3.1.1`
   * `rbenv global 3.1.1`
   * `curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash` (test install)
-*
