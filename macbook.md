@@ -1,40 +1,86 @@
 # basic setup
-* tap to click
-* double click drag: syspref > accessibility > mouse and trackpad > trackpad options
-* caps to esc: syspref > keyboard > modifier keys
-* turn off system sounds: syspref > sounds > sound effects > "Play user interface sound effects" (and turn volume all the way down)
-  * turn off charger plugged in sound: https://apple.stackexchange.com/questions/282752/turning-power-chime-off
-    * terminal:
-    * defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
-    * killall PowerChime
-* dont close windows when quitting an app: syspref > general > uncheck "Close windows when quitting an app" (particularly impacts iterm)
-* swap screencap save/clipboard commands: syspref > shortcuts > screenshots
+
+## System Preferences
+* **Trackpad**
+  * **Point & Click**
+    * check **Tap to click**
+    * check **Secondary click** (Click or tap with two fingers)
+    * set **Tracking speed** to **Fast**
+    * uncheck **Look up & data detectors**
+    * uncheck **Force Click and haptic feedback**
+    * (when magic trackpad connected): check **Silent clicking**
+  * **Scroll & Zoom**
+    * All features on
+  * **More Gestures**
+    * All features on
+* **Accessibility**
+  * **Pointer Control** > **Trackpad Options...**
+    * check **Enable dragging** (with drag lock)
+      * (double click to drag, click again to "drop")
+* **Sounds**
+  * **Sound Effects**
+    * set **Alert volume** to 0
+    * uncheck **Play sound on startup**
+    * uncheck **Play user interface sound effects**
+    * set **Show Sound in menu bar** to always
+* **Keyboard**
+  * **Keyboard**
+    * set **Key Repeat** to **Fast**
+    * set **Delay Until Repeat** to **Short**
+    * uncheck **Adjust keyboard brightness in low light**
+    * check **Turn keyboard backlight off after 5 secs of inactivity**
+    * **Modifier Keys...**
+      * **Caps Lock** to **Escape**
+  * **Text**
+    * remove "omw" default text replacement
+    * uncheck all automatic text corrections
+    * uncheck **Use smart quotes and dashes**
+  * **Shortcuts**
+    * check **Use keyboard navigation to move focus between controls**
+    * **Screenshots**
+      * swap **Save** and **Copy** screenshot commands
+* **Dock & Menu Bar**
+  * **Dock & Menu Bar**
+    * **Position on screen** to **Left**
+    * check **Automatically hide and show the Dock**
+  * **Bluetooth**
+    * check **Show in Menu Bar**
+  * **Battery**
+    * check **Show Percentage**
+  * **Clock**
+    * check **Display the time with seconds**
+* **Battery**
+  * **Power Adapter**
+    * set **Turn display off after** to **Never**
+* **Desktop & Screen Saver**
+  * **Screen Saver**
+  * uncheck **Show screen saver after...**
+* **General**
+  * uncheck **Close windows when quitting an app**
+    * (particularly impacts iterm)
+* **Users & Groups**
+  * **Login Items**
+    * set startup apps
+
+## Menu Bar
+* **Control Center**
+  * **Keyboard Brightness** to 0
+
+## Terminal
+* turn key accents off (so hold down to repeat works)
+  * `defaults write -g ApplePressAndHoldEnabled -bool false`
 * set screenshot folder
   * create folder
-  * terminal:
-  * defaults write com.apple.screencapture location /Users/featherosborn/Documents/Screenshots
+  * `defaults write com.apple.screencapture location /Users/username/Documents/Screenshots`
     * (drag and drop folder to autofill location!)
-* dock to left, autohide
-* key accents off (hold down to repeat!!!): terminal: `defaults write -g ApplePressAndHoldEnabled -bool false`
-* faster key repeat (not working???): https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x
-  * `defaults write -g InitialKeyRepeat -int 10`
-    * normal minimum is 15 (225 ms)
-  * `defaults write -g KeyRepeat -int 1`
-    * normal minimum is 2 (30 ms)
-* clock seconds/date: click clock > open date and time preferences
-* always show finder hidden files (cmd-shift-. in finder to toggle temporarily):
-  * terminal: `defaults write com.apple.finder AppleShowAllFiles YES`
-  * Hold the ‘Option/alt’ key, then right click on the Finder icon in the dock and click Relaunch.
-* bypass open link in app via chrome confirmation dialog (zoom links)
-  * `defaults write http://com.google.Chrome ExternalProtocolDialogShowAlwaysOpenCheckbox -bool true`
-* paste without style by default:
-  * syspref > keyboard > shortcuts > app shortcuts > + >
-  * Set the application/s. From the Application drop-down menu, choose All Applications (or you can specify and individual application, like Mail, if you prefer).
-  * In the Menu Title field, enter “Paste and Match Style”. Enter it exactly as is. It’s not asking you make up a name–it’s asking you for the exact name of the existing menu command.
-  * In the Keyboard Shortcut field, press Command + V (or whatever shortcut you want to use). That will capture the new shortcut. Command + V will override the regular paste command. You can also specify a different keyboard shortcut if you’d like to have the option of both.
-  * Add
-  * https://havecamerawilltravel.com/photographer/set-paste-match-style-default-mac-osx/
-* startup programs: syspref > Users & Groups > Login Items
+  * (this can also be set via the cmd-shift-5 menu?)
+* always show finder hidden files (cmd-shift-. in finder to toggle temporarily)
+  * `defaults write com.apple.finder AppleShowAllFiles YES`
+  * hold option/alt then right click on the Finder icon in the dock and click Relaunch
+
+
+
+
 
 # install
 * brave https://brave.com/
@@ -91,3 +137,28 @@
 * cmd-' to open settings
 * spacebar to preview images in finder
 * cmd/opt arrow to navigate text by word or line
+
+
+## archive notes
+
+* turn off charger plugged in sound: https://apple.stackexchange.com/questions/282752/turning-power-chime-off
+  * terminal:
+  * defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
+  * killall PowerChime
+
+* paste without style by default (this breaks image pasting):
+  * syspref > keyboard > shortcuts > app shortcuts > + >
+  * Set the application/s. From the Application drop-down menu, choose All Applications (or you can specify and individual application, like Mail, if you prefer).
+  * In the Menu Title field, enter “Paste and Match Style”. Enter it exactly as is. It’s not asking you make up a name–it’s asking you for the exact name of the existing menu command.
+  * In the Keyboard Shortcut field, press Command + V (or whatever shortcut you want to use). That will capture the new shortcut. Command + V will override the regular paste command. You can also specify a different keyboard shortcut if you’d like to have the option of both.
+  * Add
+  * https://havecamerawilltravel.com/photographer/set-paste-match-style-default-mac-osx/
+
+* faster key repeat (not working???): https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x
+  * `defaults write -g InitialKeyRepeat -int 10`
+    * normal minimum is 15 (225 ms)
+  * `defaults write -g KeyRepeat -int 1`
+    * normal minimum is 2 (30 ms)
+
+* bypass open link in app via chrome confirmation dialog (zoom links)
+  * `defaults write http://com.google.Chrome ExternalProtocolDialogShowAlwaysOpenCheckbox -bool true`

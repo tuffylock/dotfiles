@@ -38,9 +38,13 @@ _[more info](https://flight-manual.atom.io/using-atom/sections/basic-customizati
   * [markdown-image-paste](https://atom.io/packages/markdown-image-paste)
     * pasteable images!!
   * [markdown-preview](https://atom.io/packages/markdown-preview) comes installed by default (check out [mark-down-preview-enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) ?)
-    * [markdown-scroll-sync](https://atom.io/packages/markdown-scroll-sync)
+    * ctl-shift-m
+  * [markdown-scroll-sync](https://atom.io/packages/markdown-scroll-sync)
     * syncs preview display with editor
 * to investigate
+  * [markdown-writer](https://atom.io/packages/markdown-writer)
+    * lots of stuff but got for highlight and cmd to format text (which i couldn't get to work...) (and it did weird stuff to lists...indentation changed * to - ?)
+    * [atom-markdown-wrapper](https://atom.io/packages/atom-markdown-wrapper) also not working to bold etc
   * https://robertnyman.com/2014/11/04/hyperlink-helper-package-for-the-atom-editor/
     * highlight text, activate to turn into href using clipboard content
   * https://emmet.io/download/
@@ -62,7 +66,8 @@ _[more info](https://flight-manual.atom.io/using-atom/sections/basic-customizati
 * solarized dark
 
 # keymap overrides
-`/Users/fosborn/.atom/keymap.cson`
+`~/.atom/keymap.cson`
+* unsetting keymaps: https://www.silvestar.codes/articles/how-to-handle-keybindings-in-atom/
 * cmd-p (instead of cmd-shift-p) for command-palette
 ```
 '.platform-darwin, .platform-darwin .command-palette atom-text-editor':

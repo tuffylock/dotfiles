@@ -1,4 +1,7 @@
-* open safari and...come here :p https://github.com/tuffylock/dotfiles
+* open safari and...come here :p
+  * https://github.com/tuffylock/dotfiles
+* in **Terminal**
+  * `xcode-select --install`
 * basic sys-pref [here](macbook.md)
   * TODO can files be pulled for this?
 * install [brave](https://brave.com/download/)

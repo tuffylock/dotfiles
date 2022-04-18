@@ -20,7 +20,10 @@ setopt PROMPT_SUBST
 # PROMPT='%~$(__git_ps1 "(%s)")%# '
 
 # no working directory (see iterm title change below), git status
-PROMPT='%F{magenta}$(__git_ps1 "(%s)")%#%f '
+# PROMPT='%F{cyan}%1d%f%F{magenta}$(__git_ps1 "(%s)")%#%f '
+
+# current directory (1 deep), git status, different colors
+PROMPT='%F{cyan}%1d%f%F{magenta}$(__git_ps1 "(%s)")%#%f '
 
 
 # display working directory in iterm title

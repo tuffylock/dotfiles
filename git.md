@@ -1,7 +1,7 @@
 * merging master
   * switch to master, pull, swtich back, rebase
   * git rebase master
-  * 
+  *
   * for conflicts, when branching off a branch: g rebase --skip
 
 closing issue keywords https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords
@@ -10,6 +10,6 @@ closing issue keywords https://help.github.com/en/github/managing-your-work-on-g
 multiple author commits https://help.github.com/en/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors
 
 ```
-Co-authored-by: Feather Osborn <feather@modeanalytics.com>
-Co-authored-by: Josh Susser <josh.susser@modeanalytics.com>
+Co-authored-by: Employee Workington <workington@company.com>
+Co-authored-by: Coworker Jobhaver <coworker@company.com>
 ```
