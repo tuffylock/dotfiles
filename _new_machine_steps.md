@@ -1,3 +1,4 @@
+# Step by step...
 * open safari and...come here :p
   * https://github.com/tuffylock/dotfiles
 * in **Terminal**
