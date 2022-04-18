@@ -37,3 +37,4 @@
 
 ## TODO
 * tmux
+* vim

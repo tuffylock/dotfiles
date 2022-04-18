@@ -2,7 +2,7 @@
   * https://github.com/tuffylock/dotfiles
 * in **Terminal**
   * `xcode-select --install`
-* basic sys-pref [here](macbook.md)
+* basic sys-pref [here](macbook.md#system-preferences)
   * TODO can files be pulled for this?
 * install [brave](https://brave.com/download/)
   * [extensions](browsers.md)

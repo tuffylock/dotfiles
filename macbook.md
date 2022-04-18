@@ -49,15 +49,20 @@
     * check **Show Percentage**
   * **Clock**
     * check **Display the time with seconds**
+* **General**
+  * uncheck **Close windows when quitting an app**
+    * (particularly impacts iterm)
 * **Battery**
   * **Power Adapter**
     * set **Turn display off after** to **Never**
 * **Desktop & Screen Saver**
   * **Screen Saver**
-  * uncheck **Show screen saver after...**
-* **General**
-  * uncheck **Close windows when quitting an app**
-    * (particularly impacts iterm)
+    * uncheck **Show screen saver after...**
+    * **Hot Corners...**
+      * set bottom left to **Put Display to Sleep**
+* **Security & Privacy**
+  * **General**
+    * set **Require password...after sleep or screen saver begins** to **5 seconds**
 * **Users & Groups**
   * **Login Items**
     * set startup apps
