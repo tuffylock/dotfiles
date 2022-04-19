@@ -46,11 +46,26 @@ export EDITOR='atom'
 
 alias ls="ls -a"
 
+
+# git
+
 alias g="git"
+
+
+# ruby/rails
+
+alias bx="bundle exec"
+alias rs="rails server"
+alias con="rails console"
 
 
 # navigation
 
-alias dot="cd ~/projects/dotfiles"
+alias proj="cd ~/projects"
 
+alias dot="cd ~/projects/dotfiles"
 alias opdot="atom ~/projects/dotfiles"
+
+
+alias slang="atom ~/.zshrc"
+alias gitconfig="atom ~/.gitconfig"
