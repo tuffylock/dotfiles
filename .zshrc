@@ -1,9 +1,11 @@
 # touch ~/.zshrc
 
-eval "$(rbenv init - zsh)"
+# eval "$(rbenv init - zsh)"
 
-
+# brew install git
+# locate git-prompt.sh based on homebrew installation
 # https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+# . /opt/homebrew/etc/bash_ocmpletion.d/git-prompt.sh
 . /usr/local/opt/git/etc/bash_completion.d/git-prompt.sh
 
 export GIT_PS1_SHOWDIRTYSTATE=1

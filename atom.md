@@ -173,8 +173,8 @@ or
 
 ---
 
-apm list --installed --bare > ~/Gdrive/backup.txt
-apm install --packages-file ~/Gdrive/backup.txt
+apm list --installed --bare > atom_packages.txt
+apm install --packages-file atom_packages.txt
 
 
 ---
