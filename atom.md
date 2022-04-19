@@ -1,3 +1,8 @@
+# Setup
+
+* Atom > Install Shell Commands
+*
+
 Atom>Install Shell Commands
 
 # settings
@@ -140,3 +145,48 @@ atom.commands.add 'atom-text-editor', 'custom:cut-to-beginning-of-first-characte
 
 # syncing notes
 * manual package list generation etc https://chromatichq.com/insights/practical-atom-hacks
+
+https://atom.io/packages/atom-package-sync
+
+https://atom.io/packages/package-sync
+https://stackoverflow.com/a/38279088/5598661
+
+Export:
+
+Copy from ${user}/.atom:
+config.cson
+keymap.cson
+snippets.cson
+styles.less
+Save installed packages list
+  apm list --installed --bare > atom_packages.list
+Import:
+
+Replace files from Backup.1 part in ${user}/.atom
+Restore packages from packages.list mentioned in Backup.2 by:
+
+`apm install --packages-file atom_packages.list`
+or
+`apm install 'cat atom_packages.list'`
+
+
+
+---
+
+apm list --installed --bare > ~/Gdrive/backup.txt
+apm install --packages-file ~/Gdrive/backup.txt
+
+
+---
+
+https://stackoverflow.com/a/41339081/5598661
+
+The atom package manager supports starring packages, either online (through atom.io/packages and atom.io/themes) or on the commandline using
+
+apm star --installed
+
+Starred packages can then be easily installed using:
+
+apm stars --install
+
+Note that starring packages requires logging in to atom.io using your github account.

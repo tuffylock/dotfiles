@@ -26,3 +26,13 @@ https://dev.to/bhagatparwinder/terminal-of-choice-iterm2-gc
 # themes
 * AdventureTime
   * https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/AdventureTime.itermcolors
+
+
+
+# syncing
+
+General > Preferences
+when first saving it you can set the folder and say no to initial sync
+
+https://stackoverflow.com/a/56821180/5598661
+Profiles > ...Other Actions... > Save Profile as JSON...

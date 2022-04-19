@@ -1,6 +1,7 @@
 # [brave](https://brave.com/download/)
 
-## [brave settings](brave://settings)
+## brave settings
+brave://settings
 * **Get Started**
   * set **On startup** to **Continue where you left off**
 * **Brave Rewards**

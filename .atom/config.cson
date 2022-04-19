@@ -1,0 +1,47 @@
+"*":
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  "better-git-blame":
+    searchInLayerEnabled: false
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "language-gfm"
+      "welcome"
+    ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "publicassets"
+      "tmp"
+      "log"
+      "coverage"
+      "node_modules"
+      "path"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  "custom-title":
+    template: "<%= projectName %>: <%= fileName %><% if (filePath) { %> ~ ~ <%= relativeFilePath %><% } %> <% if (gitHead) { %> ~ ~ ~ Branch: <%= gitHead %><% } %>"
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapHangingIndent: 4
+  "exception-reporting":
+    userId: "012cecf3-200b-4a21-85b3-08c3286a0bcd"
+  hyperclick:
+    darwinTriggerKeys: "altKey"
+  "markdown-preview": {}
+  "markdown-writer":
+    fileExtension: ".md"
