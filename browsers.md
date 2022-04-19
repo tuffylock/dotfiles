@@ -1,3 +1,50 @@
+# [brave](https://brave.com/download/)
+
+## [brave settings](brave://settings)
+* **Get Started**
+  * set **On startup** to **Continue where you left off**
+* **Brave Rewards**
+  * turn on, then turn all settings off, relaunch brave (to remove tip icons, etc)
+* **Appearance**
+  * disable **Show Brave Rewards icon in address bar**
+  * enable **Always Show Full URLs**
+  * enable **Cycle through the most recently used tabs with Ctrl-Tab**
+    * (nevermind for now. overrides cmd-shift-[ / cmd-shift-])
+  * enable **Show warning before quitting with cmd-Q**
+* **Extensions**
+  * enable **Media Router**
+    * (for chromecast)
+  * enable **Widevine**
+
+
+# extensions
+* [vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+```
+map gp togglePinTab
+map l visitPreviousTab
+map < moveTabLeft
+map > moveTabRight
+map [ previousTab
+map ] nextTab
+```
+* [AutoHideDownloadsBar](https://chrome.google.com/webstore/detail/autohidedownloadsbar/gkmndgjgpolmikgnipipfekglbbgjcel)
+  * (periodically check for new apps that do this)
+* [Atlas](https://chrome.google.com/webstore/detail/atlas/hdipbljnjaoiknbnmhhdiepmjioafgmp)
+  * (better new tab page)
+
+# search engines
+* brave://settings/searchEngines
+* chrome://settings/searchEngines
+* unfocus omnibar
+  * x
+  * `javascript:`
+* google images
+  * i
+  * `http://images.google.com/images?hl=en&source=hp&q=%s&btnG=Search+Images&gbv=2`
+* github commit for...
+  * com
+  * `https://github.com/ORG/REPO/commit/%s`
+
 # chrome/brave
 
 ## backing up
@@ -38,34 +85,12 @@
 * format json: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 
 
-## search engines
-chrome://settings/searchEngines
-* unfocus omnibar
-  * x
-  * `javascript:`
-* google images
-  * i
-  * `http://images.google.com/images?hl=en&source=hp&q=%s&btnG=Search+Images&gbv=2`
-* github commit for...
-  * com
-  * `https://github.com/ORG/REPO/commit/%s`
-
 
 ## shortcuts
 * cmd-shift-a
   * search open tabs
 * cmd (ctl) click to select multiple tabs (eg for moving to new window)
 
-
-## vimium maps
-```
-map gp togglePinTab
-map l visitPreviousTab
-map < moveTabLeft
-map > moveTabRight
-map [ previousTab
-map ] nextTab
-```
 
 
 ## most recently used tab
@@ -77,9 +102,3 @@ map ] nextTab
 # firefox
 
 * separate sessions / "Multi-Account Containers" for development: https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
-
-# brave
-* https://bravefaq.com/categories/tipping-auto-contribute/page/how-to-turn-on-or-off-the-inline-tip-buttons
-  * brave://rewards/
-  * turn on BAT reward etc
-  * scroll down to tip settings, uncheck, relaunch

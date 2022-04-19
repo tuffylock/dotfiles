@@ -5,16 +5,18 @@
 * basic sys-pref [here](macbook.md#system-preferences)
   * TODO can files be pulled for this?
 * install [brave](https://brave.com/download/)
-  * [extensions](browsers.md)
+  * [settings](browsers.md#brave-settings)
+  * [extensions](browsers.md#extensions)
+* install [iterm](https://iterm2.com/downloads.html)
+  * [setup](iterm.md)
+* install [atom](https://atom.io/)
+  * from atom: Atom > Install Shell Commands
 * set up [github ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
   * ls -al ~/.ssh
   * ssh-keygen -t ed25519 -C "tuffylock@gmail.com"
   * pbcopy < ~/.ssh/id_ed25519.pub
   * [github keys](https://github.com/settings/keys)
-* install [iterm](https://iterm2.com/downloads.html)
-  * [setup](iterm.md)
-* install [atom](https://atom.io/)
-  * from atom: Atom > Install Shell Commands
+
 
 (having just empty space here caused the whole file to display with double spacing between bullets on github so.......)
 
