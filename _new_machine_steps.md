@@ -1,5 +1,6 @@
 * open safari and...come here :p
   * https://github.com/tuffylock/dotfiles
+  * `git clone https://github.com/tuffylock/dotfiles.git`
 * in **Terminal**
   * `xcode-select --install`
 * basic sys-pref [here](macbook.md#system-preferences)
@@ -16,8 +17,6 @@
   * ssh-keygen -t ed25519 -C "tuffylock@gmail.com"
   * pbcopy < ~/.ssh/id_ed25519.pub
   * [github keys](https://github.com/settings/keys)
-
-* `git clone https://github.com/tuffylock/dotfiles.git`
 
 
 (having just empty space here caused the whole file to display with double spacing between bullets on github so.......)
