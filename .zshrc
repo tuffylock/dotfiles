@@ -64,6 +64,8 @@ alias bx="bundle exec"
 alias rs="rails server"
 alias con="rails console"
 
+alias dbwipe="rails db:drop db:create db:migrate"
+
 
 # navigation
 
@@ -75,3 +77,9 @@ alias opdot="atom ~/projects/dotfiles"
 
 alias slang="atom ~/.zshrc"
 alias gitconfig="atom ~/.gitconfig"
+
+
+# paths
+
+export PATH=~/bin:$PATH
+export PATH="./bin:$PATH"

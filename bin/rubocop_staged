@@ -1,0 +1,4 @@
+#! /bin/sh
+# run: chmod +x ~/bin/rubocop_staged
+# ~/bin/rubocop_staged
+git diff --diff-filter=d --name-only --cached | xargs bundle exec rubocop --display-cop-names --extra-details -a

@@ -37,6 +37,12 @@
   * ctl-l doesn't work on live logs, eg rails server
 
 
+## shell scripts
+* create home bin directory/copy from dotfiles/bin
+  * cd ~
+  * mkdir bin
+
+
 ## notes
 * moving and copying files: https://learn.adafruit.com/an-illustrated-shell-command-primer/moving-and-copying-files-mv-and-cp
   *
