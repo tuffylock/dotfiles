@@ -2,6 +2,12 @@
 
 # eval "$(rbenv init - zsh)"
 
+# https://unix.stackexchange.com/questions/389881/history-isnt-preserved-in-zsh
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=1000
+setopt INC_APPEND_HISTORY_TIME
+
 # brew install git
 # locate git-prompt.sh based on homebrew installation
 # https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh

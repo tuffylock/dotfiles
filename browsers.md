@@ -12,6 +12,8 @@ brave://settings
   * enable **Cycle through the most recently used tabs with Ctrl-Tab**
     * (nevermind for now. overrides cmd-shift-[ / cmd-shift-])
   * enable **Show warning before quitting with cmd-Q**
+* **Privacy & Security**
+  * enable **Autocomplete searches and URLs**
 * **Extensions**
   * enable **Media Router**
     * (for chromecast)

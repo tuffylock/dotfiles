@@ -13,10 +13,15 @@
     * All features on
   * **More Gestures**
     * All features on
+    * switch from four fingers to three fingers:
+      * **Swipe between full-screen apps**
+      * **Mission Control**
+      * **App Expose**
 * **Accessibility**
   * **Pointer Control** > **Trackpad Options...**
     * check **Enable dragging** (with drag lock)
       * (double click to drag, click again to "drop")
+    * set **Double-click speed** slower
 * **Sounds**
   * **Sound Effects**
     * set **Alert volume** to 0
@@ -63,6 +68,8 @@
 * **Security & Privacy**
   * **General**
     * set **Require password...after sleep or screen saver begins** to **5 seconds**
+* **Mission Control**
+  * uncheck **Automatically rearrange Spaces based on most recent use**
 * **Users & Groups**
   * **Login Items**
     * set startup apps
@@ -74,14 +81,14 @@
 ## Terminal
 * turn key accents off (so hold down to repeat works)
   * `defaults write -g ApplePressAndHoldEnabled -bool false`
+* always show finder hidden files (cmd-shift-. in finder to toggle temporarily)
+  * `defaults write com.apple.finder AppleShowAllFiles YES`
+  * hold option/alt then right click on the Finder icon in the dock and click Relaunch
 * set screenshot folder
   * create folder
   * `defaults write com.apple.screencapture location /Users/username/Documents/Screenshots`
     * (drag and drop folder to autofill location!)
   * (this can also be set via the cmd-shift-5 menu?)
-* always show finder hidden files (cmd-shift-. in finder to toggle temporarily)
-  * `defaults write com.apple.finder AppleShowAllFiles YES`
-  * hold option/alt then right click on the Finder icon in the dock and click Relaunch
 
 
 
@@ -98,6 +105,8 @@
   * set default language via settings>general>request>language detection
 * muzzle https://muzzleapp.com/
   * mutes notifications while screensharing
+* zoom
+* slack
 
 # misc
 * sync shared calendars to ical: https://calendar.google.com/calendar/syncselect, https://www.howtogeek.com/409359/how-to-subscribe-to-calendars-on-mac/
@@ -132,6 +141,11 @@
 
 # finder
 * Finder > Preferences > Advanced > Keep folders on top when sorting by name
+* show all filename extensions
+* view
+  * show path
+  * show status bar
+* pin user, code, pictures
 
 
 # applescript ?
@@ -142,6 +156,10 @@
 * cmd-' to open settings
 * spacebar to preview images in finder
 * cmd/opt arrow to navigate text by word or line
+
+
+set login screen background
+https://macreports.com/how-to-change-the-login-screen-background-in-macos-big-sur/
 
 
 ## archive notes

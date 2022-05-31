@@ -34,6 +34,12 @@
   * delete previous word
 * ctl-l / cmd-k
   * clear screen / clear screen and can't scroll back
+  * ctl-l doesn't work on live logs, eg rails server
+
+
+## notes
+* moving and copying files: https://learn.adafruit.com/an-illustrated-shell-command-primer/moving-and-copying-files-mv-and-cp
+  *
 
 ## TODO
 * tmux
