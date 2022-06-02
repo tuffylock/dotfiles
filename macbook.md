@@ -40,6 +40,10 @@
     * remove "omw" default text replacement
     * uncheck all automatic text corrections
     * uncheck **Use smart quotes and dashes**
+    * to activate tab completion for text replacement (eg for emails, where you don't want a space at the end):
+      * in a browser, focus a text field
+      * Menu Bar > Edit > Substitutions
+      * uncheck and recheck **Text Replacement**
   * **Shortcuts**
     * check **Use keyboard navigation to move focus between controls**
     * **Screenshots**
