@@ -22,6 +22,9 @@ echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/pat
   * https://stackoverflow.com/questions/35634898/rake-dbcreate-vs-rake-dbcreateall
 
 
+* see more relevant methods:
+  * current_span.methods.sort - Object.methods
+
 
 * skip views etc when using rails generate controller
   * `config.api_only = true` in application.rb
