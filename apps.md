@@ -3,6 +3,10 @@
   * Settings > See all settings > Advanced > Auto-advance and select Enable
   * Save and refresh, then: General > Auto-advance > "Go to the next (newer) conversation"
 
+## gcal / google calendar
+* default meeting length to 30m
+  * Settings (top right gear) > Settings > Event Settings > Default duration
+
 ## [slack](https://slack.com/downloads/mac)
 * notifications
   * sounds off
