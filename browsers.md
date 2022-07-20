@@ -32,6 +32,11 @@ map ] nextTab
 ```
 * [AutoHideDownloadsBar](https://chrome.google.com/webstore/detail/autohidedownloadsbar/gkmndgjgpolmikgnipipfekglbbgjcel)
   * (periodically check for new apps that do this)
+* [CLUD: Cycle Last Used Tabs](https://chrome.google.com/webstore/detail/clut-cycle-last-used-tabs/cobieddmkhhnbeldhncnfcgcaccmehgn?hl=en)
+  * Opt-W
+    * quick switch/back and forth
+  * Opt-S / Opt-Shift-S
+    * slow switch (keeps going through history back/forward even if you let the command go)
 * [Atlas](https://chrome.google.com/webstore/detail/atlas/hdipbljnjaoiknbnmhhdiepmjioafgmp)
   * (better new tab page)
 
