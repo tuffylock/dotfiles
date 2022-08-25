@@ -159,7 +159,8 @@
 # mac stuff to remember
 * cmd-' to open settings
 * spacebar to preview images in finder
-* cmd/opt arrow to navigate text by word or line
+* cmd/opt arrow to navigate text by line or word
+* cmd-, to open preferences (in most apps)
 
 
 set login screen background

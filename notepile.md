@@ -16,10 +16,15 @@ then you can alias it to gpr or whatever to really save time :wink:"
 
 * app academy setup https://github.com/appacademy/campus-hybrid-setup/blob/master/macos-setup.md
 
-
+syncing dotfiles
 * automation (paid) https://www.ansible.com/products/automation-platform
 * https://github.com/lra/mackup/
   * troubleshooting file sources https://stackoverflow.com/questions/60354494/sync-macos-settings-using-mackup
+* via wrapbook ppl:
+  * I guess I'm old school cause I just symlink my dotfiles to a private git repo. These look pretty cool though.
+  * https://www.chezmoi.io/
+  * https://www.gnu.org/software/stow/
+  * https://freshshell.com/
 
 * using homebrew vs using regular installs
  * mbe i'll just use regular installs for gui programs (casks)?

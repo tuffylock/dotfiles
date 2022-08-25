@@ -110,3 +110,9 @@ map ] nextTab
 # firefox
 
 * separate sessions / "Multi-Account Containers" for development: https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
+
+
+# notes
+
+* vivaldi has native split tab support
+  * https://superuser.com/questions/1254084/google-chrome-split-pane-view
