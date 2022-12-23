@@ -40,6 +40,12 @@
     lastchange = rev-list -n 1 HEAD -- # https://stackoverflow.com/a/1113140
     empty = commit --allow-empty -m "empty commit"
     alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / # https://stackoverflow.com/a/22183573
+    logbranch = "!f() { \
+      git log main..$(git rev-parse --abbrev-ref HEAD); \
+    }; f"
+    diffbranch = "!f() { \
+      git diff main...$(git rev-parse --abbrev-ref HEAD); \
+    }; f"
     # https://www.atlassian.com/blog/git/advanced-git-aliases
     lastchangeurl = "!f() { \
         git rev-list -n 1 HEAD -- $1 | sed 's/^/https:\\/\\/github.com\\/mode\\/webapp\\/commit\\//'; \

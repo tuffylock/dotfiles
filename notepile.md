@@ -1,7 +1,11 @@
 # other ppls dotfiles
 
-* adam: https://github.com/derwiki/dotfiles
-* dana: https://github.com/dmerrick/configs
+* sd ppl
+  * adam: https://github.com/derwiki/dotfiles
+  * dana: https://github.com/dmerrick/configs
+* wb ppl
+  * https://github.com/mculp/dotfiles
+    * highlight'd https://github.com/mculp/dotfiles/blob/main/dot_psqlrc
 * app academy: https://github.com/appacademy/dotfiles
 
 * some guys full macbook setup https://gist.github.com/joncalhoun/3d3401da5e159a154069eb12bb0ca296
@@ -37,6 +41,31 @@ syncing dotfiles
 
 * atom official deep guide https://flight-manual.atom.io/using-atom/
 
+* fun web design
+  * https://www.finalform.systems/
+
+* online radio stations
+  * https://somafm.com/
+  * https://jetsetradio.live/
+  * https://smallrat.net/coolzone/
+  * https://mindmelt.party/
+  * https://www.deeplink.stream/
+
+* charting charts diagrams
+  * https://sequencediagram.org/
+    * use code to chart lifecycles etc
+  * https://dbdiagram.io/home
+    * erb diagrams (with rails schema import!)
+  * "Mermaid" in notion.so
+    * https://mermaid-js.github.io/mermaid/#/
+
+* documentation
+  * https://docusaurus.io/
+    * written in markdown and deployed via GitHub
+    * https://docusaurus.io/docs/deployment#deploying-to-netlify
+
+* paywall bypass
+  * archive.ph
 
 * postgres: brew vs postgres.app
   * app allows you to run specific multiple dbs easily? doesn't auto-upgrade? https://chrisrbailey.medium.com/postgres-on-mac-skip-brew-use-postgres-app-dda95da38d74

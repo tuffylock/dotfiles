@@ -10,6 +10,7 @@ https://dev.to/bhagatparwinder/terminal-of-choice-iterm2-gc
 # TODO: sort out custom window/tab title
 
 # settings
+* don't copy on highlight: pref > general > selection > Copy to pasteboard on selection
 * blinking line cursor: pref > profiles > text > cursor
 * open new tabs in same directory: pref > profiles > general > working directory > Reuse previous session's directory
 * opt/cmd word navigation and deletion: pref > profiles > keys > key mappings > presets > Natural Text Editing

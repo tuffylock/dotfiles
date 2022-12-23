@@ -16,7 +16,15 @@
 * **Integrations**
   * github notifications
     * https://rasim.pro/blog/personal-slack-github-notifications-for-pull-requests-reviewers-how-to-set-up/
-
+* Shortcuts
+  * Open/Close sidebar (eg threads)
+    * cmd-.
+  * Navigate back/forward through history
+    * cmd-[/]
+  * Open side-by-side channels/chats
+    * cmd-click
+  * Add emoji react to most recent message
+    * `+:emojiname` in chatbox
 
 ## zoom
 * **General**
@@ -34,5 +42,8 @@
 * prompt 1Pass unlock screen:
   * cmd-shift-x
 
+## Notion
+*  cmd-opt-t
+  *  collapses/uncollapses all toggle bullets
 
 https://krisp.ai/

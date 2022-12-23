@@ -18,7 +18,12 @@ brave://settings
   * enable **Media Router**
     * (for chromecast)
   * enable **Widevine**
+    * (for netflix)
 
+## brave flags
+brave://flags/
+* #omnibox-close-popup-with-escape
+* #omnibox-blur-with-escape
 
 # extensions
 * [vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
@@ -32,6 +37,8 @@ map ] nextTab
 ```
 * [AutoHideDownloadsBar](https://chrome.google.com/webstore/detail/autohidedownloadsbar/gkmndgjgpolmikgnipipfekglbbgjcel)
   * (periodically check for new apps that do this)
+* [URLColors](https://chrome.google.com/webstore/detail/urlcolors/jjccpcminoppplpmcfghflolejbdkekm)
+  * allows you to set certain base urls to have a colored border. good for outsourcing vigilance when working with productions systems.
 * [CLUD: Cycle Last Used Tabs](https://chrome.google.com/webstore/detail/clut-cycle-last-used-tabs/cobieddmkhhnbeldhncnfcgcaccmehgn?hl=en)
   * Opt-W
     * quick switch/back and forth
