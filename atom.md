@@ -93,12 +93,16 @@ atom.commands.add 'atom-text-editor', 'custom:cut-to-beginning-of-first-characte
   editor.moveToEndOfLine();
   editor.selectToFirstCharacterOfLine();
   editor.cutSelectedText();
+
+atom.commands.add 'atom-text-editor', 'custom:copy-project-path', ->
+  [projectPath, relativePath] = atom.project.relativizePath(atom.workspace.getActiveTextEditor().getPath());
+  atom.clipboard.write(relativePath);
 ```
   * `keymap.cson`
 ```
 'atom-text-editor':
   'ctrl-backspace': 'custom:cut-to-beginning-of-first-character'
-
+  'cmd-ctrl-c': 'custom:copy-project-path'
 ```
 
 
@@ -113,6 +117,8 @@ atom.commands.add 'atom-text-editor', 'custom:cut-to-beginning-of-first-characte
 * reveal in tree view
   * cmd-|
     * (pipe),,, (shift-\)
+* copy current file path
+  * ctl-shift-c
 * switch pane focus
   * cmd-k -> cmd-n (for next; or, cmd-arrowkey)
 * search symbols/definitions

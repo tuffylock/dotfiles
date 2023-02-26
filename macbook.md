@@ -34,6 +34,8 @@
     * set **Delay Until Repeat** to **Short**
     * uncheck **Adjust keyboard brightness in low light**
     * check **Turn keyboard backlight off after 5 secs of inactivity**
+    * set **Press [globe] to** to **Show Emoji & Symbols**
+      * lets you tap fn to show emoji panel
     * **Modifier Keys...**
       * **Caps Lock** to **Escape**
   * **Text**

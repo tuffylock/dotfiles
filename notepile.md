@@ -44,7 +44,8 @@ syncing dotfiles
 * fun web design
   * https://www.finalform.systems/
 
-* online radio stations
+* online radio stations / music
+  * https://neal.fun/ambient-chaos/
   * https://somafm.com/
   * https://jetsetradio.live/
   * https://smallrat.net/coolzone/
@@ -52,6 +53,8 @@ syncing dotfiles
   * https://www.deeplink.stream/
 
 * charting charts diagrams
+  * lucid.app
+  * graffle
   * https://sequencediagram.org/
     * use code to chart lifecycles etc
   * https://dbdiagram.io/home
