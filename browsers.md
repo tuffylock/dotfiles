@@ -113,6 +113,9 @@ map ] nextTab
 * might be magic? https://chrome.google.com/webstore/detail/recent-tabs/ocllfmhjhfmogablefmibmjcodggknml
   * "On Mac OS, the Recent Tabs extension is somehow able to reassign Ctrl+Tab to switch between two most recently used tabs out-of-the-box!" (downvoted)
 
+# chrome
+* chrome://settings/content/notifications
+  * "Sites can ask to send notifications" -> off
 
 # firefox
 
