@@ -137,14 +137,16 @@ atom.commands.add 'atom-text-editor', 'custom:copy-project-path', ->
 
 # misc
 * save individual files without trailing newline
-  * select a placeholder language (one you dont use, easy to select, ie `C`)
-  * in its language package cson file (https://github.com/atom/language-c/blob/master/grammars/c.cson) locate its "scopeName". you will prepend a `.`
-  * in atom's `config.cson` file:
-```
-'.source.c':
-  whitespace:
-    ensureSingleTrailingNewline: false
-```
+  * in whitespace package, uncheck Ensure Single Trailing Newline
+  * hmmm
+    * select a placeholder language (one you dont use, easy to select, ie `C`)
+    * in its language package cson file (https://github.com/atom/language-c/blob/master/grammars/c.cson) locate its "scopeName". you will prepend a `.`
+    * in atom's `config.cson` file:
+  ```
+  '.source.c':
+    whitespace:
+      ensureSingleTrailingNewline: false
+  ```
 * hack on init file?
   * https://medium.com/hacking-atom/tweak-your-atom-s-init-script-without-reloading-atom-with-a-declarative-module-8b1c0f208663
   * https://chromatichq.com/insights/practical-atom-hacks

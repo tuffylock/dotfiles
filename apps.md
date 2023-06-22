@@ -35,6 +35,11 @@
 * **Video**
   * check **Always display participant name on their videos**
 
+## Github
+* github vscode browser dev view
+  * https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
+  * just hit `.`
+  * or change url to `github.dev`
 
 ## 1Password
 * fill in saved info for site/field when 1Pass is unlocked:
