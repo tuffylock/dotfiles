@@ -53,6 +53,7 @@ syncing dotfiles
   * https://www.deeplink.stream/
 
 * charting charts diagrams
+  * excalidraw
   * lucid.app
   * graffle
   * https://sequencediagram.org/
