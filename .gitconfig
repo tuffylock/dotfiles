@@ -30,13 +30,20 @@
     amen = commit --amend
     co = checkout
     cob = checkout -b
+    last = checkout -
     mas = checkout master
+    main = checkout main
     puush = push -u origin HEAD
+    puull = pull --rebase
     undo = reset --soft HEAD~1
+    unstageall = reset
     ew = checkout -- .
     wipeout = reset --hard HEAD~1
     ignore = update-index --assume-unchanged
     unignore = update-index --no-assume-unchanged
+    deletebranch = branch -D
+    stashall = stash -u
+    stashpeek = stash show --include-untracked -p
     lastchange = rev-list -n 1 HEAD -- # https://stackoverflow.com/a/1113140
     empty = commit --allow-empty -m "empty commit"
     alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / # https://stackoverflow.com/a/22183573
@@ -50,6 +57,10 @@
     lastchangeurl = "!f() { \
         git rev-list -n 1 HEAD -- $1 | sed 's/^/https:\\/\\/github.com\\/mode\\/webapp\\/commit\\//'; \
       }; f"
+
+    # end with filepath to see commit where a file was deleted
+    # https://jonkuperman.com/github-find-deleted-file/
+    deletioncommit = git log --full-history  --
 [core]
     editor = vim
     [pull]

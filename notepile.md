@@ -52,7 +52,7 @@ syncing dotfiles
   * https://mindmelt.party/
   * https://www.deeplink.stream/
 
-* charting charts diagrams
+* charting charts diagrams graphs
   * excalidraw
   * lucid.app
   * graffle
@@ -62,6 +62,9 @@ syncing dotfiles
     * erb diagrams (with rails schema import!)
   * "Mermaid" in notion.so
     * https://mermaid-js.github.io/mermaid/#/
+  * https://miro.com/index/
+  * https://www.omnigroup.com/omnigraffle
+  *
 
 * documentation
   * https://docusaurus.io/

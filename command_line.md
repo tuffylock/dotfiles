@@ -4,7 +4,7 @@
 * list and kill processes
   * ps
   * kill INSERTPIDNUM
-* ps aux | grep rubyki
+* ps aux | grep ruby
   * list all running ruby processes
   * column names: https://superuser.com/questions/117913/ps-aux-output-meaning
 * kill -9 PID

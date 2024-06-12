@@ -51,6 +51,10 @@ export EDITOR='atom'
 # aliases
 
 alias ls="ls -a"
+alias rubyprocesses="ps aux | grep ruby"
+alias killruby="pkill -f ruby"
+# pass PID (second column of ps aux results)
+alias killprocess="kill -9"
 
 
 # git
@@ -63,6 +67,7 @@ alias g="git"
 alias bx="bundle exec"
 alias rs="rails server"
 alias con="rails console"
+alias rsp="bundle exec rspec"
 
 alias dbwipe="rails db:drop db:create db:migrate"
 
